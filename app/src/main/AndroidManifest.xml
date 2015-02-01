@@ -1,0 +1,154 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dtu.engifest">
+
+
+    <permission
+        android:name="com.dtu.engifest.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="com.dtu.engifest.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.dtu.engifest.permission.C2D_MESSAGE" />
+    <!-- App receives GCM messages. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- Permission to receive Google Maps -->
+    <uses-permission android:name="com.dtu.engifest.permission.MAPS_RECEIVE" />
+
+    <!-- Permission to read Google Services -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission  android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission  android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true">
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.dtu.engifest" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".events.EventsActivity"
+            android:theme="@style/TransparentTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".sponsors.SponsorsActivity"
+            android:theme="@style/AppThemeNoToolbar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Sponsors"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".sponsors.DetailImage"
+            android:theme="@style/AppThemeNoToolbar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Sponsors"
+            android:parentActivityName=".sponsors.SponsorsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".about.AboutActivity"
+            android:theme="@style/AppThemeNoToolbar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:label="About" >
+
+        </activity>
+
+        <activity
+            android:name="com.dtu.engifest.newsfeed.NewsFeedActivity"
+            android:theme="@style/AppThemeNoToolbar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:label="News Feed" >
+
+        </activity>
+
+        <activity
+            android:name=".FeedbackActivity"
+            android:theme="@style/AppThemeNoToolbar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:label="Feedback" >
+
+        </activity>
+        <activity
+            android:name=".gallery.GalleryActivity"
+            android:theme="@style/AppTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:label="Gallery" >
+
+        </activity>
+        <activity
+            android:name=".gallery.DetailGallery"
+            android:theme="@style/AppThemeNoToolbar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:label="Gallery" >
+
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/AppThemeNoToolbar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".MainActivity"
+            android:label="Settings" >
+
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCUS7DfUefOzQltqV5V5RJZdA6K1RpgIzo"/>
+    </application>
+
+</manifest>
+

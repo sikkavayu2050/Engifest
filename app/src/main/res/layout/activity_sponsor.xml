@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#303030"
+    android:layout_height="match_parent">
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+        android:id="@+id/google_now"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="4dp"
+        style="@style/GNowProgressBar"
+
+        android:indeterminate="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/error"
+        android:visibility="gone"
+
+        android:paddingTop="40dp"
+
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/errorcloud"
+            android:src="@drawable/error_view_cloud"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:id="@+id/errortext"
+            android:text="No Internet Connection"
+            android:textSize="20sp"
+            android:paddingBottom="15dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:horizontalSpacing="6dip"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="15dip"
+
+        android:padding="6dip" />
+</RelativeLayout>

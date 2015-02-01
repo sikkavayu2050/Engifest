@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\classes-93ec99324db7c5d4a9c559f938b7a5c21a9c52d0.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\gcm-90677764af37413ba93bedb5841d51f5e256d9f0.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\libs\gson-1.7.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="493d56bf37818732755e7b632882bea06e8ffd28">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\gson-1.7-8145abc7033b12827754c79c7057fed1d7472bd1.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\libs\androidsvg-1.2.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="0b8e2b5de0473fdac58cbfb4bc1ef751b09125c4">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\androidsvg-1.2.0-a0576d301ad5b6d6c33fd6a918932503de944bb0.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="698b40a43ecff2ebadc58b019ae236edd053fc67">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\classes-8993978591ccdb857d65209b05b5531dd8bb306e.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\volley-8978dcf4e331ba7b476179164bbd8ea380b8ad90.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\classes-01e997e62bcbcad844c3594cf5fff74a52f980e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\sikkavayu2013\.gradle\caches\modules-2\files-2.1\com.flaviofaria\kenburnsview\1.0.5\58cecc918f04423f77dd1853c40c72fb3fb1c71a\kenburnsview-1.0.5.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="58cecc918f04423f77dd1853c40c72fb3fb1c71a">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\kenburnsview-1.0.5-203f48a0cb3c43c8ef2f336858264866a4093f57.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.0.6\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="15ebf37e2dc7047e993afdfb308610e171bcea1b">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\classes-50be6e2f7d8abb995f0bdb5ee3d433197344e4ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\sikkavayu2013\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\library-2.4.0-1b4bd482032e01ba4a32cbc2bc38efaf5aa9f3eb.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\classes-524de512b0eabd63694ea76694af745b455b0b74.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\classes-0b372bcbbe1b30e29cc518ddb5be508f9e577cb8.jar" />
+    </item>
+    <item
+        jar="E:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-0844a8952da9f9133a5c7f505a451c45ff229218.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-587e778dbc76416889f93dc408e7576dd0d7d0b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\sikkavayu2013\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-f2f0d586f35c0b5b435a6c1000782a0794cb3e0a.jar" />
+    </item>
+    <item
+        jar="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="E:\android\new studio workspace\Engifest-1-master\app\build\intermediates\pre-dexed\debug\classes-b10d903b2d7c36831b3c878a2fd1547e4f557a16.jar" />
+    </item>
+
+</items>
